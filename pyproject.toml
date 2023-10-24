@@ -11,3 +11,8 @@ build-backend = "scikit_build_core.build"
 name = "kyle_hello"
 version = "1.0"
 description = "Kyle's Hello World Python module"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "test.py",
+]
