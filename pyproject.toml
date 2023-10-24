@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools",
+    "cmake>=3.27",
+    "scikit-build-core",
+    "pybind11",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "kyle_hello"
+version = "1.0"
+description = "Kyle's Hello World Python module"
