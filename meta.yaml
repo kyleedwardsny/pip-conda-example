@@ -1,0 +1,18 @@
+package:
+  name: kyle_hello
+  version: 1.0
+
+source:
+  path: .
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - cmake
+    - pybind11
+    - scikit-build-core
+    - make
+    - gxx
+  run:
+    - python
