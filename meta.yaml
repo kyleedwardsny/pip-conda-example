@@ -17,3 +17,10 @@ requirements:
     - pybind11
   run:
     - python
+
+test:
+  requires:
+    - pytest
+  source_files:
+    - pyproject.toml
+    - test.py
