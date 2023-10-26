@@ -7,12 +7,13 @@ source:
 
 requirements:
   build:
+    - cmake
+    - make
+    - {{ compiler('cxx') }}
+  host:
     - python
     - setuptools
-    - cmake
-    - pybind11
     - scikit-build-core
-    - make
-    - gxx
+    - pybind11
   run:
     - python
