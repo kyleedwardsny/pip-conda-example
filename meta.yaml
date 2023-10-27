@@ -18,7 +18,13 @@ requirements:
   run:
     - python
 
+build:
+  script:
+    - {{ PYTHON }} -m pip install .
+
 test:
+  commands:
+    - python -m pytest
   requires:
     - pytest
   source_files:
